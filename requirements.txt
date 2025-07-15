@@ -17,6 +17,7 @@ python-dotenv==1.1.1
 python-pptx==1.0.2
 sentence-transformers==4.1.0
 groq==0.29.0
+pinecone==7.3.0
 
 #functools; provides higher-order functions that help simplify functional programming tasks like memoization, function composition, and decorators.
 
