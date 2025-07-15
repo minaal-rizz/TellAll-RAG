@@ -1,0 +1,29 @@
+# requirements_fixed.txt
+certifi==2025.6.15
+docx2pdf==0.1.8
+gradio==5.35.0
+gradio_client==1.10.4
+langchain==0.3.26
+langchain-core==0.3.67
+langchain-text-splitters==0.3.8
+openai==0.28.1
+pandas==2.3.0
+pdf2image==1.17.0
+pymongo==4.13.2
+PyMuPDF==1.26.3
+pytesseract==0.3.13
+python-docx==1.2.0
+python-dotenv==1.1.1
+python-pptx==1.0.2
+sentence-transformers==4.1.0
+groq==0.29.0
+
+#functools; provides higher-order functions that help simplify functional programming tasks like memoization, function composition, and decorators.
+
+# PyPDF2 / pypdf: A library for reading, extracting text, and manipulating PDF files in Python.
+
+# pdfplumber: Extracts text, tables, and layout-accurate content from PDF files with better precision than pypdf.
+
+# sentence-transformers: Provides models to convert sentences into dense vector embeddings for semantic search, clustering, and similarity tasks.
+
+#PyMuPDF is a Python library used to read, extract, edit, and manipulate text, images, and metadata from PDFs and other document formats.
