@@ -38,10 +38,9 @@ print(f"📂 Using Pinecone namespace: '{NAMESPACE}' on index: '{PINECONE_INDEX}
 openai.api_base = "https://api.groq.com/openai/v1"
 groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
-
 # Connect to MongoDB
 try:
-    client = MongoClient("mongodb+srv://minaalriz4:12345@cluster0.keay9eg.mongodb.net/tellall?retryWrites=true&w=majority", tls=True,tlsCAFile=certifi.where())
+    client = MongoClient(MONGO_URI, tls=True,tlsCAFile=certifi.where())
     db = client["tellall"]
     docs_collection = db["documents"]
 except Exception as e:
