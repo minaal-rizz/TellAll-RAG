@@ -89,7 +89,7 @@ GROQ_API_KEY=your-groq-key
 
 ### 4. Start the Backend
 ```bash
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 
 ### 5. Start the Frontend (Gradio)
