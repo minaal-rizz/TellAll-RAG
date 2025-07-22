@@ -8,38 +8,45 @@
 ```
 SalesNet_RAG/
 ├── app/
-│   ├── main.py                     # FastAPI app entry
-│   ├── endpoints/                  # All route handlers
-│   │   ├── upload.py
-│   │   ├── ask.py
-│   │   ├── delete.py
-│   │   └── docs.py
-│   ├── servicess/                   # Core logic
+│   ├── api/
+│   │   ├── v1/
+│   │   │   ├── endpoints/              # Versioned route handlers
+│   │   │   │   ├── upload.py
+│   │   │   │   ├── ask.py
+│   │   │   │   ├── delete.py
+│   │   │   │   ├── docs.py
+│   │   │   │   └── __init__.py
+│   │   │   └── __init__.py
+│   │   └── __init__.py
+│   ├── services/                       # Core service logic
 │   │   ├── document_service.py
 │   │   ├── query_service.py
 │   │   ├── delete_service.py
 │   │   └── __init__.py
-│   ├── utilities/                      # Utilities
+│   ├── utilities/                      # Text extraction, reranking, etc.
 │   │   ├── extractors.py
 │   │   ├── reranker.py
 │   │   └── __init__.py
-│   ├── rag/                        # LangChain logic
+│   ├── rag/                            # LangChain integration
 │   │   ├── langchainn.py
 │   │   └── __init__.py
-│   ├── db/                         # Database interfaces
+│   ├── db/                             # Database + vector DB interface
 │   │   ├── mongo_upload.py
 │   │   ├── pinecone_upload.py
 │   │   └── __init__.py
-│   ├── core/
-│   │   ├── config.py               # Env config
-│   │   ├── pinecone_client.py     # Pinecone init
-│   │   └── mongo_client.py        # Mongo init
-├── frontend/
-│   ├── app.py                      # Gradio UI
+│   ├── core/                           # Configuration and clients
+│   │   ├── config.py
+│   │   ├── pinecone_client.py
+│   │   └── mongo_client.py
 │   └── __init__.py
-├── .env                            # Environment secrets
+├── frontend/
+│   ├── app.py                          # Gradio UI frontend
+│   └── __init__.py
+├── .env                                # Secrets and API keys
 ├── requirements.txt
 └── README.md
+├──--main.py                         # FastAPI app entry point
+
 ```
 
 ---
