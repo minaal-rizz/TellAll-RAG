@@ -1,8 +1,10 @@
-uploads 
+uploads/
 .env 
 __pycache__
 *.pyc
 .gradio/
 __pycache__
 .vscode:settings.json
-
+.DS_Store
+.gradio/
+.DS_Store
