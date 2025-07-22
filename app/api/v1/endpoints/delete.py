@@ -3,7 +3,7 @@
 from fastapi import APIRouter
 from typing import List
 
-from app.services.document_service import delete_docs, delete_all_docs
+from app.servicess.document_service import delete_docs, delete_all_docs
 
 router = APIRouter()
 

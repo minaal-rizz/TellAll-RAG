@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter
 
-from app.services.document_service import get_all_docs
+from app.servicess.document_service import get_all_docs
 
 router = APIRouter()
 

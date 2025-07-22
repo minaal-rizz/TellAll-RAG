@@ -3,8 +3,8 @@
 from fastapi import APIRouter, UploadFile, File
 from typing import List
 import os
+from app.servicess.document_service import process_single_file
 
-from app.services.document_service import process_single_file
 
 router = APIRouter()
 

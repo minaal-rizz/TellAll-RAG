@@ -13,12 +13,12 @@ tellall/
 │   │   ├── ask.py
 │   │   ├── delete.py
 │   │   └── docs.py
-│   ├── services/                   # Core logic
+│   ├── servicess/                   # Core logic
 │   │   ├── document_service.py
 │   │   ├── query_service.py
 │   │   ├── delete_service.py
 │   │   └── __init__.py
-│   ├── utils/                      # Utilities
+│   ├── utills/                      # Utilities
 │   │   ├── extractors.py
 │   │   ├── reranker.py
 │   │   └── __init__.py

@@ -4,7 +4,7 @@ from fastapi import APIRouter, Form
 from fastapi.responses import JSONResponse
 import traceback
 
-from app.services.query_service import run_rag_pipeline
+from app.servicess.query_service import run_rag_pipeline
 
 router = APIRouter()
 
