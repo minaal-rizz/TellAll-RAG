@@ -1,4 +1,4 @@
-# app/utills/extractors.py
+# app/utilities/extractors.py
 
 import os
 import fitz

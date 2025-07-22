@@ -1,4 +1,4 @@
-# app/services/delete_service.py
+# app/servicess/delete_service.py
 
 import gradio as gr
 from app.core.mongo import docs_collection

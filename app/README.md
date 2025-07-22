@@ -18,7 +18,7 @@ tellall/
 │   │   ├── query_service.py
 │   │   ├── delete_service.py
 │   │   └── __init__.py
-│   ├── utills/                      # Utilities
+│   ├── utilities/                      # Utilities
 │   │   ├── extractors.py
 │   │   ├── reranker.py
 │   │   └── __init__.py

@@ -1,4 +1,4 @@
-# app/services/document_service.py
+# app/servicess/document_service.py
 
 import os
 from datetime import datetime, timezone
@@ -6,9 +6,8 @@ import gradio as gr
 
 from app.core.mongo import docs_collection
 from app.core.pinecone_client import index
-from app.utils.extractors import extract_text
+from app.utilities.extractors import extract_text
 from app.core.config import NAMESPACE
-
 from sentence_transformers import SentenceTransformer
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 

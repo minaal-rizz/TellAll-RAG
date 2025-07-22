@@ -1,4 +1,4 @@
-# app/utills/reranker.py
+# app/utilities/reranker.py
 
 from sentence_transformers import CrossEncoder
 

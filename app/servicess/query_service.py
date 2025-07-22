@@ -1,10 +1,10 @@
-# app/services/query_service.py
+# app/servicess/query_service.py
 
 from app.core.pinecone_client import index
 from app.core.groq_client import groq_client
 from app.core.config import NAMESPACE
 from app.rag.langchainn import get_vectorstore
-from app.utills.reranker import rerank_chunks
+from app.utilities.reranker import rerank_chunks
 
 
 def ask_llm(question, context, model_name="llama3-8b-8192"):
