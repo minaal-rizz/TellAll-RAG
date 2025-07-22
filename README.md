@@ -1,12 +1,12 @@
-# 🧠 SalesNet RAG System
+# 🧠 TellAll RAG System
 
-**SalesNet** is an AI-powered document Q&A system built with **FastAPI**, **Gradio**, **LangChain**, **Pinecone**, **MongoDB**, and **Groq LLM**. It enables users to upload documents (PDF, DOCX, PPTX, XLSX), extract and embed their content, ask natural language questions, and get contextual answers with source references.
+**TellAll** is an AI-powered document Q&A system built with **FastAPI**, **Gradio**, **LangChain**, **Pinecone**, **MongoDB**, and **Groq LLM**. It enables users to upload documents (PDF, DOCX, PPTX, XLSX), extract and embed their content, ask natural language questions, and get contextual answers with source references.
 
 ---
 
 ## 📁 Project Structure
 ```
-SalesNet_RAG/
+TellAll_RAG/
 ├── app/
 │   ├── api/
 │   │   ├── v1/

@@ -1,6 +1,6 @@
 uploads/
 .env 
-__pycache__
+__pycache__/
 *.pyc
 .gradio/
 __pycache__
